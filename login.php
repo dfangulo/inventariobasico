@@ -1,4 +1,5 @@
 <?php
+
     if(trim($_POST['username'])== null|| trim($_POST['password']) == null){
         echo "<script>alert('Por favor diligencia los campos correspondientes')</script>";
         header("Refresh:0 , url =  index.html");
